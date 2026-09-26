@@ -38,12 +38,10 @@
 # **kwargs accepts an dictonary as parameter of an function and then does opertion of dict 
 #like
 
-# def dictonary(**kwargs):
-#     return kwargs
+def dictonary(**kwargs):
+    return kwargs
 
-# dictonary({
-#     "name":"abhiraj"
-# })
+print(dictonary(name="abhiraj",age=20,city="delhi"))
 
 # Question 6 — Backend-relevant
 
